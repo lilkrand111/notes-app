@@ -346,9 +346,9 @@ wheels = [
 ]
 
 [[package]]
-name = "lpr"
+name = "notes-app"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "alembic" },
     { name = "email-validator" },

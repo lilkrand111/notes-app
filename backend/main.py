@@ -25,7 +25,7 @@ from .security import (
     get_current_user,
 )
 
-app = FastAPI()
+app = FastAPI(title="Notes App", description="Personal notes API", version="0.1.0")
 
 
 @app.post("/notes", response_model=NoteRead, status_code=201)

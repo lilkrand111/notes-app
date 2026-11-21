@@ -1,7 +1,7 @@
 [project]
-name = "lpr"
+name = "notes-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "Personal notes app with a FastAPI backend, PostgreSQL, and a web interface"
 readme = "README.md"
 authors = [
     { name = "lilkrand", email = "krupaandrej1@gmail.com" }
@@ -20,13 +20,6 @@ dependencies = [
     "sqlalchemy>=2.1.1",
     "uvicorn>=0.54.0",
 ]
-
-[project.scripts]
-lpr = "lpr:main"
-
-[build-system]
-requires = ["uv_build>=0.12.10,<0.13.0"]
-build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
